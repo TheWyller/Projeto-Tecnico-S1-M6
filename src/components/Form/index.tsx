@@ -7,7 +7,7 @@ import { useContext } from "react";
 import { SendInfosContext } from "../../contexts/SendInfosContext";
 
 const Form = () => {
-  const { setData } = useContext(SendInfosContext);
+  const { setData, setloading } = useContext(SendInfosContext);
 
   const {
     register,
@@ -17,6 +17,7 @@ const Form = () => {
 
   const onSubmitFunction = (data: FieldValues) => {
     setData(data);
+    setloading(true);
   };
 
   return (

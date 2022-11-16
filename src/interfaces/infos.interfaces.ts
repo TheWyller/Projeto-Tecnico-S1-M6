@@ -18,4 +18,6 @@ export interface InfosProviderSchema {
   setData: Dispatch<SetStateAction<FieldValues>>;
   resData: InfosResponseSchema;
   data: FieldValues;
+  loading: boolean;
+  setloading: Dispatch<SetStateAction<boolean>>;
 }
