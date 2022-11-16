@@ -12,12 +12,15 @@ export default createGlobalStyle`
 
         --white-1:rgb(245,247,250);
         
-        --Grey-4:#121214;
-        --Grey-3:#212529;
-        --Grey-2:#343B41;
-        --Grey-1:#868E96;
-        --Grey-0:#F8F9FA;
+        --Grey-3:rgb(211, 211, 211);
+        --Grey-2:rgb(215, 215, 215);
+        --Grey-1:rgb(101, 101, 101);
+        --Grey-0:rgb(222, 230, 235);
         
+        --Blue-2:rgb(71, 124, 190);
+        --Blue-1:rgb(192, 222, 246);
+        --Blue-0:rgb(117, 170, 238);
+
         --textBtn:#FFFFFF;
 
     }
