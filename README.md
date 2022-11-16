@@ -11,3 +11,6 @@ Apos a instalação das dependencias, você pode rodar o app com o seguinte coma
 ### `yarn start`
 
 *Testes em desenvolvimento
+
+Aplicação no seguinte link:
+https://projeto-tecnico-s1-m6.vercel.app/
