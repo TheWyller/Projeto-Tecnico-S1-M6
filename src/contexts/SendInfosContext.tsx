@@ -14,6 +14,7 @@ export const SendInfosContext = createContext<InfosProviderSchema>(
 );
 
 export const SendInfosProvider = ({ children }: Ichildren) => {
+  const [loading, setloading] = useState<boolean>(false);
   const [data, setData] = useState<FieldValues>({} as FieldValues);
   const [resData, setResData] = useState<InfosResponseSchema>(
     {} as InfosResponseSchema
@@ -25,6 +26,7 @@ export const SendInfosProvider = ({ children }: Ichildren) => {
         .post(`/`, data)
         .then((res) => {
           setResData(res.data);
+          setloading(false);
         })
         .catch((err) => console.error(err));
   }, [data]);
@@ -35,6 +37,8 @@ export const SendInfosProvider = ({ children }: Ichildren) => {
         setData,
         resData,
         data,
+        loading,
+        setloading,
       }}
     >
       {children}

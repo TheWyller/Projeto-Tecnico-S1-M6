@@ -9,3 +9,11 @@ export const CardStyled = styled.section`
   flex-wrap: wrap;
   justify-content: center;
 `;
+export const PStyled = styled.p`
+  position: absolute;
+  background-color: antiquewhite;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  color: brown;
+`;
