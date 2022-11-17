@@ -2,7 +2,7 @@
 
 ## Available Scripts
 
-Antes de iniciar a aplicação deve-se rodar o seguinte comando:
+Antes de iniciar a aplicação ou rodar os tests, **deve-se** rodar o seguinte comando:
 
 ### `yarn`
 
@@ -10,7 +10,11 @@ Apos a instalação das dependencias, você pode rodar o app com o seguinte coma
 
 ### `yarn start`
 
-*Testes em desenvolvimento
+Para rodar os testes unitários basta rodar o seguinte comando:
+
+### `yarn test`
+
+*Testes de integração em desenvolvimento
 
 Aplicação no seguinte link:
 https://projeto-tecnico-s1-m6.vercel.app/
