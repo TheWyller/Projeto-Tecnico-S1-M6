@@ -28,7 +28,7 @@ const Form = () => {
           name="amount"
           type="number"
           label="Informe o valor da venda *"
-          placeholder=""
+          placeholder="R$ 1000.00"
           register={register}
           step="0.01"
           min={1000}
@@ -38,7 +38,7 @@ const Form = () => {
           name="installments"
           type="number"
           label="Em quantas parcelas *"
-          placeholder=""
+          placeholder="9"
           register={register}
           min={1}
           error={errors.installments?.message}
@@ -47,7 +47,7 @@ const Form = () => {
           name="mdr"
           label="Informe o percentual de MDR *"
           type="number"
-          placeholder=""
+          placeholder="2"
           register={register}
           min={0}
           error={errors.mdr?.message}
